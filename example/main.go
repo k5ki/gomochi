@@ -17,13 +17,19 @@ import (
 	"github.com/google/uuid"
 )
 
-const QueueName = "omochi-7917fb2.fifo"
+var (
+	AwsRegion string
+	QueueName string
 
-var awscfg aws.Config
+	awscfg aws.Config
+)
 
 func init() {
+	AwsRegion = os.Getenv("AWS_REGION")
+	QueueName = os.Getenv("QUEUE_NAME")
+
 	var err error
-	awscfg, err = awsconfig.LoadDefaultConfig(context.TODO(), awsconfig.WithRegion("ap-northeast-1"))
+	awscfg, err = awsconfig.LoadDefaultConfig(context.TODO(), awsconfig.WithRegion(AwsRegion))
 	if err != nil {
 		panic(err)
 	}
