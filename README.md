@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="https://github.com/k5ki/gomochi/blob/main">
-    <img alt="Check status" src="https://img.shields.io/github/checks-status/k5ki/gomochi/main" />
+    <img alt="Check status" src="https://img.shields.io/github/check-runs/k5ki/gomochi/main" />
   </a>
   <a href="https://github.com/k5ki/gomochi/releases">
     <img alt="Latest release" src="https://img.shields.io/github/v/release/k5ki/gomochi?logo=starship&include_prerelease&sort=semver" />
