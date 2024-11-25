@@ -7,8 +7,8 @@
 
 <h4 align="center">A simple queue worker.</h4>
 
-<p align="center" style="text-decoration: none">
-  <a href="https://github.com/k5ki/gomochi/blob/main">
+<p align="center">
+  <a style="text-decoration: none" href="https://github.com/k5ki/gomochi/blob/main">
     <img alt="Check status" src="https://img.shields.io/github/check-runs/k5ki/gomochi/main" />
   </a>
   <a href="https://github.com/k5ki/gomochi/releases">
